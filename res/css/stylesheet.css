@@ -1,0 +1,72 @@
+body {
+	background-color: #dddddd;
+	/*font-family:  "Lucinda Console", sans-serif;*/
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-size: 1em;
+	transition: background-color 1s ease;
+	line-height: 1.2;
+}
+
+h1, h2, h3, h4, h5 {
+	margin-bottom: 10px;
+}
+
+h1 {
+	font-size: 1.7em;
+}
+
+h2 {
+	font-size: 1.5em;
+}
+
+.page {
+	color: white;
+	padding: 20px;
+	margin: 20px auto;
+	width: 90%;
+	border-radius: 5px;
+}
+
+.shadow {
+	-webkit-box-shadow: 3px 3px 5px 1px rgba(0,0,0,0.5);  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+	-moz-box-shadow:    3px 3px 5px 1px rgba(0,0,0,0.5);  /* Firefox 3.5 - 3.6 */
+	box-shadow:         3px 3px 5px 1px rgba(0,0,0,0.5);  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+}
+
+.navbar {
+	z-index: 100;
+	background-color: #305030;
+	background: repeating-linear-gradient(
+		to right,
+		#191b38,
+		#191b38 10px,
+		#1c1f4b 10px,
+		#1c1f4b 20px
+	);
+	background: repeating-linear-gradient(
+		to right,
+		#3f1b19,
+		#3f1b19 10px,
+		#4f1f1c 10px,
+		#4f1f1c 20px
+	);
+	color: white;
+	height: 70px;
+}
+
+.navbar a {
+	color: rgb(230,230,230);
+	transition: background-color 0.3s ease, border-top-width 0.3s ease;
+	border-color: #bcae45;
+	border-top-width: 0px;
+	text-decoration: none;
+	float: left;
+	padding: 0px 20px;
+	line-height: 70px;
+}
+
+.navbar a:hover {
+	border-top-width: 3px;
+	border-top-style: solid;
+	background-color: rgba(0,0,0,0.3);
+}
