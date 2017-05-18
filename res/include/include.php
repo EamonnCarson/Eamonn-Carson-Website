@@ -60,7 +60,7 @@ function generate_navbar($active_tab) {
 					<span class=\"icon-bar\"></span>
 					<span class=\"icon-bar\"></span>
 				</button>
-				<a class=\"navbar-brand\" href=\"#\">Bootstrap theme</a>
+				<a class=\"navbar-brand\" href=\"#\">Eamonn Carson</a>
 			</div>
 			<div id=\"navbar\" class=\"navbar-collapse collapse\">
 				<ul class=\"nav navbar-nav\">
@@ -78,9 +78,9 @@ function generate_navbar($active_tab) {
 		"Favorites",
 	);
 	$href = array(
-		"TODO",
-		"TODO",
-		"TODO",
+		"/",
+		"/projects",
+		"/favorites",
 	); 
 /* Generation Code */
 	/* 	The top and bottom echos wrap the list of tabs below. 
