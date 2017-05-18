@@ -4,7 +4,7 @@
 	<?php 
 		// include the section generation file
 		$root = realpath($_SERVER["DOCUMENT_ROOT"]);
-		require "$root/res/include/include.php";
+		require "$root/res/templates/generators.php";
 		generate_header();
 	?>
 	<meta name="description" content="">
